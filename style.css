@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdfdfd;
+    color: #222;
+    text-align: center;
+  }
+  
+  .hero {
+    background-color: #030306;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #00b894;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  .cta-button:hover {
+    background-color: #019170;
+  }
+  
+  .about, .features, .signup {
+    padding: 60px 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  .features li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  form input {
+    padding: 10px;
+    width: 250px;
+    max-width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #00b894;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background: #019170;
+  }
+  
+  footer {
+    padding: 20px;
+    background: #f4f4f4;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icon-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transition: opacity 0.2s ease;
+  }
+  
+  .social-icon-img:hover {
+    opacity: 0.7;
+  }
+  
