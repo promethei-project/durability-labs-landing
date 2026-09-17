@@ -1,1 +1,1 @@
-# durability-labs-landing
+# promethei-project-landing
